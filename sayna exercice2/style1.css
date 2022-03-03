@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+        /* le haader */
+header{
+    height:5vh ;
+    padding: 3%;
+    color: #ffff;
+    border-bottom: solid 2px #322f36;
+    background-image:url(./assets/img/header_bg.jpg) ;
+}
+.logo{
+    margin: auto 40%;
+}
+nav ul{
+    margin-top: -3%;
+}
+nav ul li{
+    display: inline;
+    padding: 5%;
+} nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+}
+.get{
+    float: right;
+    color: #3d9f96;
+    margin-top:-4%;
+    margin-right: 10%;
+}
+      /*section*/
+      section{
+        background-image: url(./assets/img/header_bg.jpg);
+        margin-bottom: -5%;
+    
+    }
+    section h1{
+        margin:0;
+        padding: 2%;
+        padding-top: 5%;
+        color: white;
+        text-align:center ;
+        font-size:xx-large ;
+        font-family:"Raleway", Arial, sans-serif ;
+    }
+    section  h2{
+        color:#3d9f96;
+        font-size: small;  
+        text-align: center;
+        font-family:"Raleway", Arial, sans-serif ;
+    
+      }
+      section p{
+        text-align: center;
+        color: #ababab;
+        padding-top: -2%;
+        font-family:"Raleway", Arial, sans-serif ;
+    }
+    section button{
+        padding: 15px 70px;
+        background-color:#3d9f96;
+        color: white;
+        float: right;
+        margin-right: 43%;
+        border-style: none;
+        border-radius: 50px;
+    }
+     section> #ordinateur img{
+        margin-left: 20%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    
+    
+    
+    }
+          /*bloc1*/
+.bloc1{
+    background-color: #f9f9f9;
+    margin-bottom: 2%;
+}     
+.icon{
+    margin-left: 15%;
+    padding:3%;
+}
+.icon img{
+    padding: 2%;
+}
+.bloc1 p{
+    font-size: large;
+    color: #3d9f96;
+    font-weight: bold;
+    font-family: "Open Sans", "Arial", "sans-serif";
+    text-align: center;
+    margin-bottom: 3%;
+    padding-bottom: 5%;
+}
+       /* bloc2*/
+.bloc2{
+   background-color: #ffff;
+   margin-top: 0%;
+}
+.bloc2 h3{
+    text-align: center;
+    padding-top: 1%;
+}
+.bloc2 p{
+    color: black;
+    font-weight: lighter;
+    padding-top: 1%;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%
+}
+       /*bloc3*/
+.bloc3{
+    background-image: url(./assets/img/map_bg.png);
+    display: flex;
+    padding-top: 3%;
+
+}
+   
+.bloc3 figure figcaption{
+    margin-top: -10%;
+    margin-left: 15%;
+    font-weight: bold;
+} 
+.logoplay figure{
+    margin-top: 100%;
+    margin-left: -70%;
+}
+.imgcentre figure{
+    margin-left: 35%;
+}
+.figicon{
+    padding-left: 5%;
+    
+}
+.imgrig {
+
+}  
+/*  bloc4*/
+.bloc4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+    background-color: #322f36;
+}
+.bloc4 img{
+    margin-left: 45%;
+    margin-top: 5%;
+}
+.bloc4 p{
+    color: white;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-weight: lighter;
+    font-family: Helvetica, Arial, sans-serif, 'Raleway';
+}
+.bloc4 a{
+   color: #3d9f96;
+   text-decoration: none;
+   margin: auto 45%;
+}
+/* bloc5*/
+.bloc5{
+    background-color: #f9f9f9;;
+}
+
+.bloc5 h4{
+    text-align: left;
+    color: black;
+    padding-top: 5%;
+    font-size: xx-large;
+    font-weight: lighter;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 0%;
+
+}
+.screenshots{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}
+     /*bloc6*/
+.imgphoto1{
+margin-top: 5%;
+margin-left: 15%;
+}
+.imgphoto2{
+    margin-left: 15%;
+    margin-top: -17%;
+}
+.bloc6 >.test{
+    float: right;
+    padding-right: 25%;
+    margin-top:-15%;
+}
+.test h5{
+    font-size: 150%;
+    font-family: Open Sans, Arial, sans-serif ;
+}
+.test p{
+    color:#ababab;
+    font-family: Helvetica, Arial, sans-serif, 'Raleway';
+}
+.test button{
+    padding: 15px 50px;
+    background-color:#3d9f96;
+    color: white;
+    float: right;
+    border-style: none;
+    border-radius: 50px;
+    margin-right: 40%;
+    margin-top: 5%;
+    
+}
+.bloc6>.Responsive{
+   margin-left: 15%;
+   margin-top: 20%;
+}
+.Responsive h6{
+    font-size: 150%;
+    font-family: Open Sans, Arial, sans-serif 
+}
+.Responsive button{
+    padding: 15px 50px;
+    background-color:#3d9f96;
+    color: white;
+    border-style: none;
+    border-radius: 50px;
+    margin-top: 5%;
+}
+#imagiphone img{
+ float: right;
+ margin-top: -28%;
+ padding-right: 30%;
+}
+    /* le pied du page*/
+footer{
+    width:100% ;
+    bottom: 0;
+    padding: 80px 1Opx 10px;
+ background-color: #f9f9f9;;
+}
+.footr{
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+.col{
+    padding: 5%;
+}
+.fin{
+    display: flex;
+    background-color: #ffff;
+}
+.p{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.im{
+    margin-left: 30%;
+    margin-top: 4%;
+}
+
